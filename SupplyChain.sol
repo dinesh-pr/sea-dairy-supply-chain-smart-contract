@@ -19,7 +19,7 @@ contract practice {
 
     constructor() {
         owner = msg.sender;
-    }
+    } 
 
     modifier restricted() {
         require(msg.sender == owner, "Sorry! You are not applicable.");
