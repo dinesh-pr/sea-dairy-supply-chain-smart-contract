@@ -419,5 +419,3 @@ contract practice {
     }
 }
 
-
-
